@@ -1,1 +1,2 @@
-python3 -m pip install xgboost
+xgboost==1.0.2
+numba==0.48.0
