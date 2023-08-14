@@ -4,8 +4,8 @@ import pickle
 import datetime
 import pandas as pd
 import numpy as np
-import xgboost as xgb
-from xgboost import XGBClassifier
+#import xgboost as xgb
+#from xgboost import XGBClassifier
 
 
 # Caling the model we saved using pickle
