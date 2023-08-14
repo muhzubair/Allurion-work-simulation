@@ -64,5 +64,7 @@ def show_predict_page():
             st.subheader("Unfortunately you are not on track to be successful in the program, please contact your allurion personal assistant")      
     
 
+show_predict_page();
+
 
 
