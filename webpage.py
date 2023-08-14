@@ -4,6 +4,8 @@ import pickle
 import datetime
 import pandas as pd
 import numpy as np
+import xgboost as xgb
+from xgboost import XGBClassifier
 
 
 # Caling the model we saved using pickle
@@ -23,7 +25,7 @@ def show_predict_page():
     # Setting title
     st.title("Track progress of your Allurion Program")
     
-    # Providing user instructions
+    # Providing message to give instructions to users
     st.write("Please enter your information below")
     
     # User variables to input data 
