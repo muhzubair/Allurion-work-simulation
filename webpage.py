@@ -43,6 +43,7 @@ def show_predict_page():
     bmr = st.number_input("BMR")
     tbwl = st.number_input("TBWL")
     daydiff = st.number_input("Days since the treatement started")
+    st.write('To get precise results please use this after you have completed atleast 20 days of the program')
     
     # After the user clicks ok, and enters all information
     ok = st.button("Calculate Success")
